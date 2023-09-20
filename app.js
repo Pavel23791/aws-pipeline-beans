@@ -7,7 +7,6 @@ app.use(express.json());
 
 app.use('/', (req, res) => {
     return res.status(200).json({message: "Hello From AWS Pipline"});
-
 })
 
 app.listen(3001);
